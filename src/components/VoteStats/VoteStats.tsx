@@ -1,12 +1,12 @@
 import css from './VoteStats.module.css'
 import type { Votes } from '../../types/votes';
 
-interface VotStatsProps {
+interface VoteStatsProps {
     votes: Votes;
     totalVotes: number;
     positiveRate: number;
 }
-export default function VoteStats({ votes, totalVotes, positiveRate }: VotStatsProps)  {
+export default function VoteStats({ votes, totalVotes, positiveRate }: VoteStatsProps)  {
 
     return (
         <div className={css.container}>
